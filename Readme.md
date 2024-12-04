@@ -33,7 +33,11 @@ Gán điểm cho mỗi trạng thái:
 - Thắng: Điểm cao hơn.
 - Thua: Điểm thấp hơn.
 - Hòa: Điểm bằng nhau.
+Minimax đảm bảo bot chơi thông minh hơn, tăng tính thử thách trong chế độ chơi single.
+Với bảng lớn, nước đi ngẫu nhiên được dùng để giảm thời gian xử lý.
 Đảm bảo trò chơi hoạt động cho cả chế độ 2 người chơi và chế độ chơi với bot.
 
-checkWinner() để kiểm tra người thắng cuộc. Đảm bảo phát hiện người thắng hoặc hòa.
-
+- checkWinner() để kiểm tra người thắng cuộc. Đảm bảo phát hiện người thắng hoặc hòa.
+- startGameButton: Cho phép người chơi chọn kích thước bảng, chế độ chơi (bot hoặc hai người).
+- restartButton: Khởi động lại trò chơi với cùng kích thước bảng.
+- updateStatus: Hiển thị thông báo cho người chơi.
