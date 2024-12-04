@@ -3,7 +3,7 @@ Khi ấn Start game - Nhấn Ok để chơi với Bot, Cancel để vào chế �
 getElementById: Sử dụng để lấy các phần tử HTML bằng ID. Ví dụ:
 
 board: Bảng trò chơi.
-statusDisplay: Hiển thị trạng thái (ví dụ: "Player X's turn").
+statusDisplay: Hiển thị trạng thái lượt chơi (ví dụ: "Player X's turn").
 boardSizeInput: Chọn kích thước bảng.
 startGameButton và restartButton: Nút bắt đầu và khởi động lại trò chơi.
 
