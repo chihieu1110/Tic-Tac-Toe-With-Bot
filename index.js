@@ -163,6 +163,12 @@ const checkMode = () => {
 
 startGameButton.addEventListener("click", () => {
     boardSize = parseInt(boardSizeInput.value);
+    if (boardSize < 3) {
+        alert("Board size must be at least 3x3. Defaulting to 3x3.");
+        const inputSize = document.getElementById("boardSize")
+        inputSize.value = 3
+        boardSize = 3
+    }
     document.querySelector("h1").textContent = `Tic Tac Toe - ${boardSize} x ${boardSize}`;
     isSinglePlayer = confirm("Play against the bot? (Cancel for 2-player mode)");
     createBoard(boardSize);
